@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* header style start */
+        .nav-section {
+            display: grid;
+            justify-content: center;
+            background-color: #5555fd;
+
+        }
+
+        .nav-continer {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-column-gap: 437px;
+            width: 800px;
+
+        }
+
+        .first-side {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .first-side div {
+            padding: 10px;
+        }
+
+        .nav-image img {
+            height: 40px;
+            width: 25px;
+        }
+
+        .last-side {
+            display: flex;
+            align-items: center;
+        }
+
+        .last-side div {
+            padding: 10px;
+        }
+
+        .last-side div a {
+            text-decoration: none;
+        }
+
+        /* header style end */
+    </style>
+</head>
+
+<body>
+
+    <section class="nav-section">
+        <nav class="nav-continer">
+            <div class="first-side">
+                <div class="nav-image">
+                    <img src="images/icons/logo.png" alt="">
+                </div>
+                <div>
+                    <h2>
+                        Idea
+                    </h2>
+                </div>
+            </div>
+            <div class="last-side">
+                <div>
+                    <a href="">Home</a>
+                </div>
+                <div>
+                    <a href="">About</a>
+                </div>
+                <div>
+                    <a href="">Wroks</a>
+                </div>
+                <div>
+                    <a href=""><img src="images/icons/profile.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+</body>
+
+</html>
